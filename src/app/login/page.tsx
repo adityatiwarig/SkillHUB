@@ -63,7 +63,7 @@ export default function LoginPage() {
             id="email"
             type="email"
             className="w-full p-3 rounded-xl border border-gray-400 bg-white/60 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500"
-            placeholder="you@example.com"
+            placeholder="enter email"
             value={user.email}
             onChange={(e) => setUser({ ...user, email: e.target.value })}
           />
